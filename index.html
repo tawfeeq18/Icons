@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wer{
+            height: auto;
+            width: 50%;
+            border: 4px solid red;
+          
+           
+        }
+
+        label{
+            color:brown;
+        }
+
+        #a{
+            text-decoration: underline wavy;
+        }
+      
+
+        
+    </style>
+</head>
+<body>
+    <h1 id="a">Personal Information</h1>
+<div class="wer">
+    <label for="fname">Full Name: </label> <br>
+    <input type="text" id="fname" name="fname" placeholder="Enter Name"><br><br>
+
+    <label for="dob">Date Of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="gender" name="gender">
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">Others</label><br><br>
+
+    <label for="nation">Nationality:</label>
+    <select name="nation" id="nation">
+    <option value="India">India</option>
+    <option value="America">America</option>
+    <option value="Paris">Paris</option>
+    <option value="Us">US</option>
+    <option value="Others">Others</option></select><br><br>
+
+    <label for="number">Contact Number:</label>
+    <input type="number" name="number" id="number"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="address">Address:</label>
+    <textarea name="address" rows="5" cols="20"></textarea><br><br>
+
+    
+    <input type="submit" style="background-color: red;color:white;">
+
+</div>
+
+</body>
+</html>
